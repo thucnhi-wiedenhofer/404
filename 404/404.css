@@ -34,3 +34,7 @@ main{
 img{
     width: 70%;
 }
+
+@media all and ("max-device-width: 480px") {
+
+}
