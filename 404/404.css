@@ -1,0 +1,36 @@
+body{
+    
+}
+header{
+    text-align: center;
+    border:solid black;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+main{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10%;
+    
+}
+#text{
+   font-family: cursive ; 
+}
+
+#text h1 {
+    font-size: 70px;
+    font-style: italic;
+}
+  
+       
+#text p {
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+img{
+    width: 70%;
+}
