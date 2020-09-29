@@ -12,19 +12,26 @@ body{
 h1{
     font-size: 5em;
     color:whitesmoke;
-    text-shadow: 0 0 10px #FFD100;;
+    text-shadow: 0 0 10px #ff8800;;
     
+    transition: 0.5s;
     padding-top: 20%;
 
 }
-section{
+ 
+h1:hover{
+    transform: scale(1.3);
+}
+
+.contenair{
     border-style: hidden;
     border-radius: 5px;
     padding: 20px;
-    background-color: wheat;
+    background-color: hsl(39, 77%, 83%,0.7);
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 #text{
     color: black;
@@ -36,6 +43,7 @@ section{
     padding: 10px;
     background-color:black;
     color: white;
+    text-decoration: none;
     width: 30%;
     justify-content: center;
     text-align: center;
@@ -49,4 +57,4 @@ section{
 }
 #facebook:visited {
     color:blueviolet;
-}
+}   
